@@ -1,0 +1,17 @@
+﻿2025-01-22 12:20:39:3960 : EXCEPTION - FetchDBData : A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The specified network name is no longer available.)
+2025-01-22 12:20:39:3995 : Exception - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Screen9_IMTEX.Screen9.BindData() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 33
+2025-01-22 15:30:16:8618 : EXCEPTION - FetchDBData : A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The specified network name is no longer available.)
+2025-01-22 15:30:16:8618 : Exception - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Screen9_IMTEX.Screen9.Output1DataBind() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 80
+2025-01-22 15:30:16:8618 : Exception - System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Screen9_IMTEX.Screen9.Output2DataBind() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 163

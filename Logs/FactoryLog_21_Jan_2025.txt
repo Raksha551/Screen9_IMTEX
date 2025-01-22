@@ -1,0 +1,21 @@
+﻿2025-01-21 12:08:07:5194 : EXCEPTION - FetchDBData : The ConnectionString property has not been initialized.
+2025-01-21 16:14:40:5933 : Exception - System.ArgumentException: Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Screen9_IMTEX.Screen9.BindData() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 42
+2025-01-21 16:16:13:9622 : Exception - System.ArgumentException: Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Screen9_IMTEX.Screen9.BindData() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 42
+2025-01-21 16:16:52:7305 : Exception - System.ArgumentException: Column 'Description' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Screen9_IMTEX.Screen9.BindData() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 42
+2025-01-21 16:43:10:1757 : Exception - System.ArgumentException: Column 'DimensionID' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Screen9_IMTEX.Screen9.BindData() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 115
+2025-01-21 16:44:38:7438 : Exception - System.ArgumentException: Column 'DimensionID' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at Screen9_IMTEX.Screen9.BindData() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 115
