@@ -72,6 +72,7 @@
     <Content Include="Images\AutomationLabels.png" />
     <Content Include="Images\EditedBG.png" />
     <Content Include="Images\imtex-logo.png" />
+    <Content Include="Images\ll.png" />
     <Content Include="Images\logo-ace-micromatic.png" />
     <Content Include="Screen9.aspx" />
     <Content Include="Web.config" />

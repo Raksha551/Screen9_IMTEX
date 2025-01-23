@@ -40,7 +40,7 @@
             background-position: center;
             background-repeat: no-repeat;
             padding-bottom: 2.6vw;
-            height: 24.3vw;
+            height: 24.5vw;
             color: white;
             text-align: center;
         }
@@ -69,7 +69,7 @@
         }
 
         .M06 {
-            margin-top: 6vw;
+            margin-top: 6.2vw;
             margin-left: 71vw;
         }
 
@@ -111,8 +111,8 @@
         }
 
         .M1, .M2, .M3, .M4, .M5, .M6 {
-            margin-left: 0.5vw;
-            margin-right: 0.5vw;
+           /* margin-left: 0.5vw;
+            margin-right: 0.5vw;*/
             padding: 0.4vw;
             padding-bottom: 0vw;
             border-radius: 0.5vw;
@@ -209,6 +209,7 @@
             font-size: 1vw;
             font-family: sans-serif;
         }
+
     </style>
 </head>
 <body>
@@ -285,7 +286,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div style="display: flex; background-color: #050d0d; color: #ddd; padding-top: 0.9vw; justify-content: space-around;">
+                        <div style="display: flex; background-color: #050d0d;flex-wrap:wrap; color: #ddd; padding-top: 0.9vw; justify-content: space-around;">
                             <div class="M1">
                                 <div class="heading" style="display: flex;">
                                     <div style="padding-top: 0.2vw;">
@@ -413,14 +414,14 @@
                         </div>
                         <div class="footer">
                             <div>
-                                <img runat="server" src="./Images/AmitLogo.png" style="padding-left: 1.5vw;" />
+                                <img runat="server" src="./Images/ll.png" style="padding-left: 1.5vw;" />
                             </div>
                             <div>
                                 <img runat="server" src="./Images/AmitLogo.png" style="padding-right: 1.5vw;" />
                             </div>
                         </div>
                     </div>
-                    <asp:Timer runat="server" OnTick="Timer1_Tick" Interval="60000"></asp:Timer>
+                    <asp:Timer runat="server" OnTick="Timer1_Tick" Interval="99900000"></asp:Timer>
                 </ContentTemplate>
             </asp:UpdatePanel>
         </div>
