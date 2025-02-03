@@ -67,10 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\AMiT.png" />
     <Content Include="Images\AmitLogo.png" />
     <Content Include="Images\Automation.png" />
     <Content Include="Images\AutomationLabels.png" />
     <Content Include="Images\EditedBG.png" />
+    <Content Include="Images\Imtex-logo 2.png" />
+    <Content Include="Images\ImTEX-dark-logo-1.jpg" />
     <Content Include="Images\imtex-logo.png" />
     <Content Include="Images\ll.png" />
     <Content Include="Images\logo-ace-micromatic.png" />

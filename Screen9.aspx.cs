@@ -1,7 +1,9 @@
 ﻿using Evaluation2_Screens;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -15,7 +17,7 @@ namespace Screen9_IMTEX
         List<DataTable> dt_data = new List<DataTable>();
 
         protected void Page_Load(object sender, EventArgs e)
-        {
+        {         
             try
             {
                 BindData();
@@ -46,14 +48,13 @@ namespace Screen9_IMTEX
                 opValue3.Text = "OK";
                 laststatus.Text = "Last Status";
                 Output1DataBind();
-                Output2DataBind();
+                Output2DataBind();               
             }
             catch (Exception ex)
             {
                 Logger.WriteErrorLog($"BindData : {ex}");
             }
         }
-
         protected void Timer1_Tick(object sender, EventArgs e)
         {
             try
@@ -74,8 +75,7 @@ namespace Screen9_IMTEX
                     Label opValue55Label = (Label)e.Item.FindControl("opValue55");
                     string dimensionValue = ((DataBaseHelper.DimensionData)e.Item.DataItem).DimensionValue;
                     if (!string.IsNullOrEmpty(dimensionValue))
-                    {
-                        opValue55Label.Style["width"] = "5.5vw";
+                    {                       
                         opValue55Label.Style["margin-left"] = "5.75vw";
                         opValue55Label.Style["padding"] = "0.2vw";
                         opValue55Label.Style["padding-left"] = "0.3vw";
@@ -197,7 +197,7 @@ namespace Screen9_IMTEX
                                 dimensionvalue3.Text = dt_output2.Rows[i]["Value"].ToString();
                                 if (!string.IsNullOrEmpty(dt_output2.Rows[i]["Value"].ToString()))
                                 {
-                                    dimensionvalue3.Style["width"] = "5.54vw";
+                                   
                                     dimensionvalue3.Style["margin-left"] = "5.75vw";
                                     dimensionvalue3.Style["padding"] = "0.2vw";
                                     dimensionvalue3.Style["padding-left"] = "0.3vw";

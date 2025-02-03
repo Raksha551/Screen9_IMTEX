@@ -1,0 +1,48 @@
+﻿2025-02-03 11:51:20:3192 : EXCEPTION - FetchDBData : Cannot open database "Traceability_Canned" requested by the login. The login failed.
+Login failed for user 'PCT-LAN\devteam'.
+2025-02-03 11:51:20:3312 : EXCEPTION - Output1DataBind : System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Screen9_IMTEX.Screen9.Output1DataBind() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 100
+2025-02-03 11:51:20:3326 : EXCEPTION - Output2DataBind : System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Screen9_IMTEX.Screen9.Output2DataBind() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 183
+2025-02-03 11:51:52:2432 : EXCEPTION - FetchDBData : Cannot open database "Traceability_Canned" requested by the login. The login failed.
+Login failed for user 'PCT-LAN\devteam'.
+2025-02-03 11:51:52:2451 : EXCEPTION - Output1DataBind : System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Screen9_IMTEX.Screen9.Output1DataBind() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 100
+2025-02-03 11:51:52:2468 : EXCEPTION - Output2DataBind : System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Screen9_IMTEX.Screen9.Output2DataBind() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 183
+2025-02-03 11:52:27:0982 : EXCEPTION - FetchDBData : Cannot open database "Traceability_Canned" requested by the login. The login failed.
+Login failed for user 'PCT-LAN\devteam'.
+2025-02-03 11:52:27:0994 : EXCEPTION - Output1DataBind : System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Screen9_IMTEX.Screen9.Output1DataBind() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 100
+2025-02-03 11:52:27:1015 : EXCEPTION - Output2DataBind : System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Screen9_IMTEX.Screen9.Output2DataBind() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 183
+2025-02-03 17:11:47:3572 : EXCEPTION - FetchDBData : Cannot open database "Traceability_Canned" requested by the login. The login failed.
+Login failed for user 'PCT-LAN\devteam'.
+2025-02-03 17:11:47:3808 : EXCEPTION - Output1DataBind : System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Screen9_IMTEX.Screen9.Output1DataBind() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 100
+2025-02-03 17:11:47:3830 : EXCEPTION - Output2DataBind : System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Screen9_IMTEX.Screen9.Output2DataBind() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 183

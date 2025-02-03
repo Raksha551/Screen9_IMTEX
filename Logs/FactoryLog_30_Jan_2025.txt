@@ -1,0 +1,11 @@
+﻿2025-01-30 10:46:07:6141 : EXCEPTION - FetchDBData : A connection was successfully established with the server, but then an error occurred during the login process. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+2025-01-30 10:46:07:6599 : EXCEPTION - Output1DataBind : System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Screen9_IMTEX.Screen9.Output1DataBind() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 99
+2025-01-30 10:46:07:7013 : EXCEPTION - Output2DataBind : System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Screen9_IMTEX.Screen9.Output2DataBind() in C:\Users\devteam\Documents\Demo_C#\WEB_ASP.Net\ASP_NEW_Tasks\Screen9_IMTEX\Screen9.aspx.cs:line 182
